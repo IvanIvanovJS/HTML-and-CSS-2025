@@ -1,0 +1,27 @@
+p.highlight {
+    color: rgb(10, 144, 144);
+}
+
+div#special {
+    max-width: 200px;
+    padding: 1rem;
+    background-color: chocolate;
+}
+
+a[href^="/"] {
+    padding: 1rem;
+    border: 2px solid greenyellow
+}
+
+li.important {
+    color: red
+}
+
+p.a.b.c {
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+ul>li.important:last-child {
+    font-weight: bolder;
+}

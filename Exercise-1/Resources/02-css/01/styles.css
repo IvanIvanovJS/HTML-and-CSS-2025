@@ -1,0 +1,33 @@
+h1 {
+    color: brown;
+}
+
+p {
+    font-size: 22px;
+}
+
+.highlight {
+    max-width: 240px;
+    background: lightcoral;
+}
+
+#main-title {
+    color: lightgreen;
+}
+
+#special-paragraph {
+    font-style: italic;
+}
+
+ul {
+    display: block;
+}
+
+ul li {
+    color: chartreuse;
+}
+
+div {
+    background: red;
+    max-width: 240px;
+}
