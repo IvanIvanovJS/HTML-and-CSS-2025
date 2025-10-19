@@ -1,0 +1,78 @@
+img[alt="landscape"] {
+    height: 150px;
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    border-radius: 1rem;
+    border: 1px solid lightblue;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    border: 1px solid darkcyan;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: darkslategray;
+    transform: scale(1);
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+nav li a:hover {
+    background: rgb(193, 255, 255, 0.8);
+    z-index: 5;
+    transform: scale(1.1);
+}
+
+div.services>section {
+    padding: 0.5rem;
+    border: 1px solid black;
+    margin: 1rem;
+    max-width: 200px;
+    font-size: 18px;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 100px 1px rgb(193, 255, 255, 1);
+}
+
+header+div {
+    border-radius: 0.5rem;
+    border: 1px solid cyan
+}
+
+div.services~.footer-section {
+    margin-top: 2rem;
+    border-radius: 0rem;
+    border-top: 1px solid darkblue;
+    text-align: center;
+
+}
+
+section.content-section:first-child {
+    color: darkblue;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: black;
+}
+
+h2.content-title::before {
+    content: '<< ';
+    color: red;
+    margin-right: 1rem;
+}
+
+h2.content-title::after {
+    content: ' >>';
+    margin-left: 1rem;
+    color: blue
+}
