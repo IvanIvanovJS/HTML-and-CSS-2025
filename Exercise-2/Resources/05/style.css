@@ -1,0 +1,26 @@
+div {
+    border: 2px solid black;
+    margin: 1.5em;
+    padding: 1em;
+}
+
+body {
+    height: 100vh;
+}
+
+div.first {
+    height: 200px;
+}
+
+div.second {
+    height: 50%;
+}
+
+div.third {
+    height: 50vh;
+}
+
+div.fourth {
+    min-height: 100px;
+    max-height: 300px;
+}
