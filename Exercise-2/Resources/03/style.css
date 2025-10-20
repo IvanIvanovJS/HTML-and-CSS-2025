@@ -1,0 +1,17 @@
+div {
+    border: 2px solid #000;
+    padding: 2em;
+}
+
+
+div.first {
+    margin: 20px;
+}
+
+div.second {
+    margin: 10px 30px 20px 40px;
+}
+
+div.third {
+    margin: -20px;
+}

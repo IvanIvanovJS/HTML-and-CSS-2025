@@ -1,0 +1,22 @@
+div {
+    border: 2px solid black;
+    margin: 1.5em;
+    padding: 1em;
+}
+
+div.first {
+    max-width: 300px;
+}
+
+div.second {
+    width: 50%;
+}
+
+div.third {
+    width: 50vw;
+}
+
+div.fourth {
+    min-width: 100px;
+    max-width: 300px;
+}
