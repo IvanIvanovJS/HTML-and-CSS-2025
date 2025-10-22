@@ -1,0 +1,21 @@
+div {
+    border: 2px solid #000;
+    max-width: 300px;
+    max-height: 100px;
+}
+
+h2 {
+    margin: 1em;
+}
+
+div.a {
+    overflow: visible;
+}
+
+div.b {
+    overflow: hidden;
+}
+
+div.c {
+    overflow: scroll;
+}
