@@ -1,0 +1,50 @@
+div {
+    padding: 2em;
+    margin: 2em;
+    border: 3px dashed #000;
+    font-size: 24px;
+    position: relative;
+}
+
+.margin {
+    background: lightcoral;
+}
+
+div.border {
+    background: lightsalmon;
+}
+
+div.padding {
+    background: lightgreen;
+}
+
+div.content {
+    background: lightblue;
+    text-align: center;
+}
+
+.margin::before {
+    content: "margin";
+    position: absolute;
+    top: 0.5em;
+    left: 2.5em;
+
+}
+
+.border::before {
+    content: "border";
+    position: absolute;
+    top: 0.5em;
+    left: 2.5em;
+}
+
+.padding::before {
+    content: "padding";
+    position: absolute;
+    top: 0.5em;
+    left: 2.5em;
+}
+
+body {
+    padding: 2.5em 20em;
+}
